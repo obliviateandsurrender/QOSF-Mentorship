@@ -2,30 +2,78 @@
 
 
 
-## **Question - Task 4**:
+## **Assessment Question:**:
 
 Find the lowest eigenvalue of the following matrix:
 
-$$
-\begin{bmatrix}
-1 & 0 & 0 & 0  \\
-0 & 0 & -1 & 0 \\
-0 & -1 & 0 & 0 \\
-0 & 0 & 0 & 1
-\end{bmatrix}.
-$$
+```
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mo>[</mo>
+    <mtable rowspacing="4pt" columnspacing="1em">
+      <mtr>
+        <mtd>
+          <mn>1</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+      </mtr>
+      <mtr>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mo>&#x2212;<!-- − --></mo>
+          <mn>1</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+      </mtr>
+      <mtr>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mo>&#x2212;<!-- − --></mo>
+          <mn>1</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+      </mtr>
+      <mtr>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mn>0</mn>
+        </mtd>
+        <mtd>
+          <mn>1</mn>
+        </mtd>
+      </mtr>
+    </mtable>
+    <mo>]</mo>
+  </mrow>
+  <mo>.</mo>
+</math>
+```
 
 using VQE-like circuits, created by yourself from scratch.
-
-## **Solution**:
-
-My solution involves usage of Qiskit platform and is outlined as follows:
-
-
-1.   Hamiltonian in Pauli Basis
-2.   Calculations of Expectation Value
-3.   Designing Ansatze
-4.   Running Simulations
-5.   Extension to Excited Energy States
-6.   Interpreting the Results
-
